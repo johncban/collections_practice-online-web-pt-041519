@@ -17,7 +17,6 @@ end
 
 def swap_elements(swap_elements)
   swap_elements[b], swap_elements[c] <=> swap_elements[c], swap_elements[b]
-  swap_elements
 end
 
 def reverse_array()
