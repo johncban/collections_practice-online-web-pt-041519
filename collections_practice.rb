@@ -3,7 +3,9 @@ def sort_array_asc(sort_array_asc)
 end
 
 def sort_array_desc(sort_array_desc)
-  sort_array_desc.sort!
+  sort_array_desc.sort!{
+    |x, y| y <=> x
+  }
 end
 
 def sort_array_char_count()
