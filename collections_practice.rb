@@ -9,8 +9,8 @@ def sort_array_desc(sort_array_desc)
 end
 
 def sort_array_char_count(sort_array_char_count)
-  count_pets = sort_array_char_count.sort_by {
-    |x| x.length
+  count_pets = sort_array_char_count.sort {
+    |x, y| x.length <=> y.length
   }
 end
 
