@@ -9,6 +9,7 @@ def sort_array_desc(sort_array_desc)
 end
 
 def sort_array_char_count(sort_array_char_count)
+  # Source: https://stackoverflow.com/questions/3172224/how-do-i-sort-a-ruby-array-of-strings-by-length
   count_pets = sort_array_char_count.sort {
     |x, y| x.length <=> y.length
   }
