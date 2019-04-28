@@ -9,7 +9,8 @@ def sort_array_desc(sort_array_desc)
 end
 
 def sort_array_char_count(sort_array_char_count)
-  sort_array_char_count.sort
+  count_pets = sort_array_char_count.sort
+  puts "#{count_pets}"
 end
 
 def swap_elements()
