@@ -8,8 +8,8 @@ def sort_array_desc(sort_array_desc)
   }
 end
 
-def sort_array_char_count()
-
+def sort_array_char_count(sort_array_char_count)
+  sort_array_char_count.sort
 end
 
 def swap_elements()
